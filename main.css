@@ -10,3 +10,48 @@ html, body {
     height: 100%;
  
 }
+.text-center {
+    text-align: center;
+    animation: alternate 3s ease-in-out infinite;
+}
+.text-center hover {
+    color: #0ff;
+    transition: 0.3s;
+}
+.text-center :active {
+    color: #0ff;
+}
+
+.aboutme {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+    background: #111;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0ff;
+}
+.bg {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter: brightness(0.35) contrast(1.5);
+}
+.gg1 {
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+.tc {
+    margin: 300px;
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+
+}
+.Technalogia {
+    text-align: center;
+    margin-bottom: 50px;
+}
